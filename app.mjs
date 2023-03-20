@@ -2,7 +2,7 @@ import express from "express";
 import axios from "axios";
 
 const app = express();
-const port = 3000;
+const port = 80;
 
 app.get("/", (req, res) => {
   const { product_id, license_key } = req.query;
