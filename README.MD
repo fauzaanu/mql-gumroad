@@ -40,7 +40,7 @@ This method would require your users to allow dll imports in their metatrader.
 
 The node server is a simple express server which takes the license key and the product id as a get request and then sends a post request to gumroad with the license key and the product id.
 
-No extra configuration is required. Just run the app.mjs file and it will start listening on port 3000.
+No extra configuration is required. Just run the app.mjs file and it will start listening
 
 ---
 
